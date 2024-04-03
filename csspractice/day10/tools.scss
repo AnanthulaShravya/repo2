@@ -1,0 +1,39 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$third-color: #e74c3c;
+
+$font-size-header: 24px;
+
+.head {
+  &__container {
+    background-color: $primary-color;
+    color: #fff;
+    padding: 10px;
+
+    & h1 {
+      font-size: $font-size-header;
+    }
+  }
+}
+
+.box {
+  &__list {
+    background-color: $secondary-color;
+    color: #fff;
+    padding: 5px;
+
+    &__item {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
+
+.bottom {
+  &__container {
+    background-color: $third-color;
+    color: #fff;
+    padding: 15px;
+
+}
+}

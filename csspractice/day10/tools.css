@@ -1,0 +1,26 @@
+.head__container {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .head__container h1 {
+    font-size: 24px;
+  }
+  
+  .box__list {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .box__item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .bottom__container {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 15px;
+  }

@@ -1,0 +1,30 @@
+.main{
+    display:grid;
+    /* justify-items:space-between ; */
+    min-height: 100vh;
+    align-items: center;
+    /* justify-items: center; */
+    /* justify-self: center; */
+    /* padding: 100px ; */
+}
+.container{
+    display:grid;
+    gap:10px; 
+    width: 80%;
+    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+    /* align-items: center; */
+    justify-items: center;
+    justify-self: center;
+    /* justify-items: center; */
+   
+}
+
+div img{
+    height:300px;
+    width:100%;
+   
+}
+
+
+
+

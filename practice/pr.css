@@ -1,0 +1,29 @@
+/* .ex1{
+  padding:20px;
+  background-image: linear-gradient(to right ,#f0a7da,#93d486);
+  margin:20px
+}
+.ex2{
+    background-image:radial-gradient(circle, #bd73cc, #00d9ff);
+    padding:10px;
+}
+.ex3{
+    padding:20px;
+    background-image: url('../csspractice/Harry.jpg'); 
+    margin:20px
+}
+.ex4{
+    color:#f0a7da;
+  
+    border: 2px solid #000000;
+    
+}
+.ex5{
+    color:#f0a7da;
+    outline:2px dashed #00d9ff;
+} */
+
+.ex1{
+    display:block;
+}
+

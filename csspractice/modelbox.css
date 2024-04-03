@@ -1,0 +1,32 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Set the height of the container */
+    
+}
+.image{
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 100%;
+}
+
+.profilename{
+    text-align: center;
+    box-sizing:border-box;
+    margin:10px;
+    border:1px solid blue;
+    padding :20px
+}
+p{
+    text-align: justify;
+    color:blueviolet;
+    background-color: antiquewhite;
+    padding:20px;
+    margin:30px;
+}
+#info{
+    color:blue;
+    background-color: hsl(187, 57%, 77%);
+    padding:10px;
+    border:2px solid black;
+}

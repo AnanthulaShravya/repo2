@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div p{
+            background-color: rgb(231, 104, 224);
+            color:rgb(14, 146, 56);
+        }
+          p{
+            color:rgb(87, 12, 201);
+          }
+          #inside p{
+            background-color: rgb(154, 112, 193);
+            color:rgb(218, 183, 137)
+          }
+          .outside p{
+            color:rgba(244, 9, 177, 0.742);
+            background-color: rgb(174, 215, 202);
+          }
+    </style>
+</head>
+<body>
+    <p>this is outer paragraph</p>
+    <div class="outside">
+        <p>This is a paragraph</p>
+        <div id="inside">
+            <p>this is inside div</p>
+            <p style="color:aqua">one more para</p>
+        </div>
+    </div>
+    <div >
+        <p>another line</p>
+    </div>
+</body>
+</html>

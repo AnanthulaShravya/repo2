@@ -1,0 +1,45 @@
+body{
+    background-image:radial-gradient(circle, #f7f4f8, #8fe0ee);
+}
+.total{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    color: #050101;
+    font-weight:bold;
+}
+.im{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+    margin:40px;
+    padding:30px;
+    background-color: rgb(209, 197, 184);
+    
+}
+.image{
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 100%;
+}
+h1{
+    text-align: center;
+    margin: 40px;
+}
+.par{
+    background-image: linear-gradient(to right ,#f1d6e9,#cbebc4);
+}
+p{
+    text-align: justify;
+    box-sizing:content-box;
+    width:900px;
+    padding:20px;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size: medium;
+     font-weight:10;
+     line-height:2;
+}

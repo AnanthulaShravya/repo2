@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Schedule</h1>
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Location</th>
+
+        </tr>
+        <tr>
+            <td>9:00 AM - 10:00 AM</td>
+            <td>Opening Ceremony</td>
+            <td>Main Hall</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00 PM</td>
+            <td>Workshop: Web Development Basics</td>
+            <td>Workshop Room 1</td>
+        </tr>
+        <tr>
+            <td>1:00 PM - 2:30 PM</td>
+            <td>Panel Discussion</td>
+            <td>Conference Room</td>
+        </tr>
+
+    </table>
+    <br>
+
+    <form>
+       <fieldset>
+         <legend>Registration Form</legend>
+          <label>Frist Name :</label>
+          <input type="text" id="name" name="name" placeholder="Enter name" required>
+          <br>
+          <br>
+
+          <label>Email :</label>
+          <input type="email" id="email" name="email" required>
+          <br>
+          <br>
+          <label>Select workshop</label>
+          <select>
+            <option value="webdev">Web Development Basics</option>
+            <option value="uxdesign">UX Design Principles</option>
+            <option value="datasci">Introduction to Data Science</option>
+          </select>
+          <br>
+          <br>
+          <button type="submit">Registration</button>
+
+       </fieldset>
+    </form>
+</body>
+</html>

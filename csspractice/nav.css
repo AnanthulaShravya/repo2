@@ -1,0 +1,34 @@
+ul{
+    list-style-type :none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    background-color:grey;
+  
+    
+}
+nav{
+    top:0;
+    position:sticky;
+}
+li {
+    /* display:inline; */
+    float:left;
+    border-right:1px solid gray;
+ 
+}
+ li a{
+    text-decoration:none;
+    display:block;
+    padding: 8px;
+    color:aliceblue;
+
+}
+li a:hover{
+    background-color: bisque;
+    color:black;
+}
+.info{
+    height:1000px;
+}
+
